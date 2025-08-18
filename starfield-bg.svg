@@ -1,0 +1,104 @@
+<!-- Animated starfield background for hero section -->
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .star {
+        fill: white;
+        opacity: 0.8;
+        animation: twinkle 3s infinite;
+      }
+      .star-bright {
+        fill: white;
+        opacity: 1;
+        animation: twinkle 2s infinite;
+      }
+      .star-dim {
+        fill: #9C9C9C;
+        opacity: 0.6;
+        animation: twinkle 4s infinite;
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Pure black background -->
+  <rect width="1920" height="1080" fill="#000000"/>
+  
+  <!-- Large stars -->
+  <circle cx="150" cy="200" r="2" class="star-bright"/>
+  <circle cx="300" cy="150" r="1.5" class="star"/>
+  <circle cx="500" cy="100" r="2" class="star-bright"/>
+  <circle cx="750" cy="180" r="1" class="star"/>
+  <circle cx="900" cy="120" r="1.5" class="star-bright"/>
+  <circle cx="1200" cy="200" r="2" class="star"/>
+  <circle cx="1400" cy="100" r="1" class="star-bright"/>
+  <circle cx="1600" cy="160" r="1.5" class="star"/>
+  <circle cx="1800" cy="140" r="1" class="star-bright"/>
+  
+  <!-- Medium stars -->
+  <circle cx="200" cy="300" r="1" class="star"/>
+  <circle cx="400" cy="250" r="1" class="star-dim"/>
+  <circle cx="600" cy="280" r="1" class="star"/>
+  <circle cx="800" cy="320" r="1" class="star-bright"/>
+  <circle cx="1000" cy="280" r="1" class="star-dim"/>
+  <circle cx="1300" cy="300" r="1" class="star"/>
+  <circle cx="1500" cy="320" r="1" class="star-bright"/>
+  <circle cx="1700" cy="280" r="1" class="star-dim"/>
+  
+  <!-- Small stars scattered -->
+  <circle cx="100" cy="400" r="0.5" class="star-dim"/>
+  <circle cx="250" cy="450" r="0.5" class="star"/>
+  <circle cx="350" cy="380" r="0.5" class="star-dim"/>
+  <circle cx="480" cy="420" r="0.5" class="star"/>
+  <circle cx="650" cy="400" r="0.5" class="star-dim"/>
+  <circle cx="780" cy="460" r="0.5" class="star"/>
+  <circle cx="920" cy="380" r="0.5" class="star-dim"/>
+  <circle cx="1050" cy="440" r="0.5" class="star"/>
+  <circle cx="1180" cy="400" r="0.5" class="star-dim"/>
+  <circle cx="1320" cy="420" r="0.5" class="star"/>
+  <circle cx="1450" cy="460" r="0.5" class="star-dim"/>
+  <circle cx="1580" cy="380" r="0.5" class="star"/>
+  <circle cx="1720" cy="440" r="0.5" class="star-dim"/>
+  <circle cx="1850" cy="400" r="0.5" class="star"/>
+  
+  <!-- Lower section stars -->
+  <circle cx="120" cy="600" r="1" class="star"/>
+  <circle cx="280" cy="650" r="0.5" class="star-dim"/>
+  <circle cx="450" cy="580" r="1" class="star-bright"/>
+  <circle cx="620" cy="640" r="0.5" class="star"/>
+  <circle cx="780" cy="600" r="1" class="star-dim"/>
+  <circle cx="950" cy="620" r="0.5" class="star"/>
+  <circle cx="1100" cy="580" r="1" class="star-bright"/>
+  <circle cx="1280" cy="640" r="0.5" class="star-dim"/>
+  <circle cx="1420" cy="600" r="1" class="star"/>
+  <circle cx="1580" cy="620" r="0.5" class="star-bright"/>
+  <circle cx="1750" cy="580" r="1" class="star-dim"/>
+  
+  <!-- Bottom section stars -->
+  <circle cx="180" cy="800" r="0.5" class="star"/>
+  <circle cx="320" cy="850" r="1" class="star-bright"/>
+  <circle cx="480" cy="780" r="0.5" class="star-dim"/>
+  <circle cx="650" cy="820" r="1" class="star"/>
+  <circle cx="820" cy="800" r="0.5" class="star-bright"/>
+  <circle cx="980" cy="850" r="1" class="star-dim"/>
+  <circle cx="1150" cy="780" r="0.5" class="star"/>
+  <circle cx="1320" cy="820" r="1" class="star-bright"/>
+  <circle cx="1480" cy="800" r="0.5" class="star-dim"/>
+  <circle cx="1650" cy="850" r="1" class="star"/>
+  <circle cx="1800" cy="780" r="0.5" class="star-bright"/>
+  
+  <!-- Very bottom stars -->
+  <circle cx="100" cy="950" r="0.5" class="star-dim"/>
+  <circle cx="300" cy="980" r="0.5" class="star"/>
+  <circle cx="500" cy="920" r="1" class="star-bright"/>
+  <circle cx="700" cy="960" r="0.5" class="star-dim"/>
+  <circle cx="900" cy="940" r="0.5" class="star"/>
+  <circle cx="1100" cy="980" r="1" class="star-bright"/>
+  <circle cx="1300" cy="920" r="0.5" class="star-dim"/>
+  <circle cx="1500" cy="960" r="0.5" class="star"/>
+  <circle cx="1700" cy="940" r="1" class="star-bright"/>
+  <circle cx="1850" cy="980" r="0.5" class="star-dim"/>
+</svg>
